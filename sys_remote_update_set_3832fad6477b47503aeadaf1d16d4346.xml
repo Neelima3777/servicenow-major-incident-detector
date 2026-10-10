@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-10-10 11:52:41">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Major Incident Auto-Detection v1</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>b851768e477bc3503aeadaf1d16d438a</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-10 11:52:39</sys_created_on>
+<sys_id>3832fad6477b47503aeadaf1d16d4346</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-10 11:52:39</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_register_237a061a473747503aeadaf1d16d437c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><derived_priority>100</derived_priority><description>Fires when a major incident is auto-created</description><event_name>u_mi.created</event_name><fired_by/><priority>100</priority><queue/><suffix/><sys_class_name>sysevent_register</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-10 09:00:12</sys_created_on><sys_id>237a061a473747503aeadaf1d16d437c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_mi.created</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sysevent_register_237a061a473747503aeadaf1d16d437c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-10 09:00:12</sys_updated_on><table>incident</table></sysevent_register></record_update>]]></payload>
+<payload_hash>1884465701</payload_hash>
+<remote_update_set display_value="Major Incident Auto-Detection v1">3832fad6477b47503aeadaf1d16d4346</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-10 11:52:39</sys_created_on>
+<sys_id>0532fad6477b47503aeadaf1d16d4348</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1250a9b6d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-10 11:52:39</sys_updated_on>
+<table>incident</table>
+<target_name>u_mi.created</target_name>
+<type>Event Registration</type>
+<update_domain>global</update_domain>
+<update_guid>dbbaca1a30734750230a4505279e9b74</update_guid>
+<update_guid_history>dbbaca1a30734750230a4505279e9b74:1884465701</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_0cff36ca47fbc3503aeadaf1d16d43ca</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Number of incidents on one CI that triggers a major incident</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>u_mi.threshold</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 18:15:34</sys_created_on><sys_id>0cff36ca47fbc3503aeadaf1d16d43ca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_mi.threshold</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_0cff36ca47fbc3503aeadaf1d16d43ca</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 18:15:34</sys_updated_on><type>integer</type><value>5</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=0cff36ca47fbc3503aeadaf1d16d43ca"/></record_update>]]></payload>
+<payload_hash>-259853379</payload_hash>
+<remote_update_set display_value="Major Incident Auto-Detection v1">3832fad6477b47503aeadaf1d16d4346</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-10 11:52:39</sys_created_on>
+<sys_id>0932fad6477b47503aeadaf1d16d4349</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a121e0afae0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-10 11:52:39</sys_updated_on>
+<table/>
+<target_name>u_mi.threshold</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>604007cad5fbc35078c3bacd824e95f1</update_guid>
+<update_guid_history>604007cad5fbc35078c3bacd824e95f1:-259853379</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_17ddc786477fc3503aeadaf1d16d4333</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.MajorIncidentDetector&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;Detects major incidents when many incidents hit the same CI within a short time window.&lt;/description&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;MajorIncidentDetector&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var MajorIncidentDetector = Class.create();
+MajorIncidentDetector.prototype = {
+
+    initialize: function() {
+        this.threshold = parseInt(gs.getProperty('u_mi.threshold', '5'), 10);
+        this.windowMinutes = parseInt(gs.getProperty('u_mi.window_minutes', '10'), 10);
+    },
+
+    // Called every time a new incident is created
+    evaluate: function(incGr) {
+        // Skip if there's no CI, if it's already a major incident, or if it already has a parent
+        if (incGr.cmdb_ci.nil() || incGr.u_auto_major_incident == true || !incGr.parent_incident.nil())
+            return;
+
+        var ciId = incGr.getValue('cmdb_ci');
+
+        // Step 1: If an open major incident already exists for this CI, just link to it
+        var existingMajor = this._findOpenMajor(ciId);
+        if (existingMajor) {
+            this._linkChild(incGr.getUniqueValue(), existingMajor.getUniqueValue());
+            return;
+        }
+
+        // Step 2: Count recent incidents on this CI
+        var recentIds = this._getRecentIncidents(ciId);
+        if (recentIds.length &lt; this.threshold)
+            return;
+
+        // Step 3: Threshold reached - create the major incident and link all children
+        var majorId = this._createMajor(incGr, recentIds.length);
+        for (var i = 0; i &lt; recentIds.length; i++) {
+            this._linkChild(recentIds[i], majorId);
+        }
+    },
+
+    _findOpenMajor: function(ciId) {
+        var gr = new GlideRecord('incident');
+        gr.addQuery('cmdb_ci', ciId);
+        gr.addQuery('u_auto_major_incident', true);
+        gr.addActiveQuery();
+        gr.setLimit(1);
+        gr.query();
+        if (gr.next())
+            return gr;
+        return null;
+    },
+
+    _getRecentIncidents: function(ciId) {
+        var windowStart = new GlideDateTime();
+        windowStart.addSeconds(-60 * this.windowMinutes);
+
+        var ids = [];
+        var gr = new GlideRecord('incident');
+        gr.addQuery('cmdb_ci', ciId);
+        gr.addQuery('u_auto_major_incident', '!=', true);
+        gr.addNullQuery('parent_incident');
+        gr.addActiveQuery();
+        gr.addQuery('sys_created_on', '&gt;=', windowStart);
+        gr.query();
+        while (gr.next()) {
+            ids.push(gr.getUniqueValue());
+        }
+        return ids;
+    },
+
+    _createMajor: function(sampleInc, count) {
+        var mi = new GlideRecord('incident');
+        mi.initialize();
+        mi.short_description = 'MAJOR INCIDENT: ' + count + ' incidents reported on ' + sampleInc.cmdb_ci.getDisplayValue();
+        mi.description = 'Auto-created by Major Incident Detector. ' + count +
+            ' incidents were logged against this CI within ' + this.windowMinutes + ' minutes.';
+        mi.cmdb_ci = sampleInc.cmdb_ci;
+        mi.caller_id = sampleInc.caller_id;
+        mi.category = sampleInc.category;
+        mi.assignment_group = sampleInc.assignment_group;
+        mi.impact = 1;
+        mi.urgency = 1;
+        mi.u_auto_major_incident = true;
+        var majorId = mi.insert();
+
+        gs.eventQueue('u_mi.created', mi, String(count), '');
+        return majorId;
+    },
+
+    _linkChild: function(childId, parentId) {
+        var child = new GlideRecord('incident');
+        if (child.get(childId)) {
+            child.parent_incident = parentId;
+            child.work_notes = 'Linked to an auto-detected major incident.';
+            child.update();
+        }
+    },
+
+    // Called when a major incident is resolved
+    createProblem: function(majorGr) {
+        var prb = new GlideRecord('problem');
+        prb.initialize();
+        prb.short_description = 'RCA: ' + majorGr.short_description;
+        prb.description = 'Root cause analysis for major incident ' + majorGr.number +
+            '. Resolution notes: ' + majorGr.close_notes;
+        prb.cmdb_ci = majorGr.cmdb_ci;
+        prb.assignment_group = majorGr.assignment_group;
+        prb.first_reported_by_task = majorGr.sys_id;
+        return prb.insert();
+    },
+
+    type: 'MajorIncidentDetector'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-09 19:18:45&lt;/sys_created_on&gt;&lt;sys_id&gt;17ddc786477fc3503aeadaf1d16d4333&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;MajorIncidentDetector&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_17ddc786477fc3503aeadaf1d16d4333&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-09 19:18:45&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;17ddc786477fc3503aeadaf1d16d4333&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-09 19:18:44&lt;/sys_created_on&gt;&lt;sys_id&gt;edbe430a477fc3503aeadaf1d16d433f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-09 19:18:44&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-383591312</payload_hash>
+<remote_update_set display_value="Major Incident Auto-Detection v1">3832fad6477b47503aeadaf1d16d4346</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-10 11:52:39</sys_created_on>
+<sys_id>0d32fad6477b47503aeadaf1d16d434a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1221a86c00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-10 11:52:39</sys_updated_on>
+<table/>
+<target_name>MajorIncidentDetector</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>cabe430af77fc350acf8025d26304546</update_guid>
+<update_guid_history>cabe430af77fc350acf8025d26304546:-383591312</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_bf1d96e3c0a801640190725e63f8ac80</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="bf1d96e3c0a801640190725e63f8ac80" sys_domain="global" table="incident" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>646a760247fbc3503aeadaf1d16d43ea</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>caller_id</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>e06ab60247fbc3503aeadaf1d16d4329</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>category</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>ac6ab60247fbc3503aeadaf1d16d4329</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>subcategory</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>686ab60247fbc3503aeadaf1d16d432a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>business_service</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>246ab60247fbc3503aeadaf1d16d432b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>service_offering</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>ec6ab60247fbc3503aeadaf1d16d432b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cmdb_ci</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>a86ab60247fbc3503aeadaf1d16d432c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>universal_request</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>646ab60247fbc3503aeadaf1d16d432d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>route_reason</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>206ab60247fbc3503aeadaf1d16d432e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>e86ab60247fbc3503aeadaf1d16d432e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>contact_type</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>a46ab60247fbc3503aeadaf1d16d432f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>state</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>606ab60247fbc3503aeadaf1d16d4330</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>hold_reason</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>2c6ab60247fbc3503aeadaf1d16d4330</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>impact</element><position>13</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>e46ab60247fbc3503aeadaf1d16d4331</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>urgency</element><position>14</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>a06ab60247fbc3503aeadaf1d16d4332</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>priority</element><position>15</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>6c6ab60247fbc3503aeadaf1d16d4332</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assignment_group</element><position>16</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>286ab60247fbc3503aeadaf1d16d4333</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assigned_to</element><position>17</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>e06ab60247fbc3503aeadaf1d16d4334</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>18</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>ac6ab60247fbc3503aeadaf1d16d4334</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>19</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>686ab60247fbc3503aeadaf1d16d4335</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>20</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>246ab60247fbc3503aeadaf1d16d4336</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cxs_table_search.xml</element><position>21</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>ec6ab60247fbc3503aeadaf1d16d4336</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Contextual Search Results">11eb1622eb1121003623666cd206fe56</sys_ui_formatter><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_auto_major_incident</element><position>22</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:49:55</sys_created_on><sys_id>2c6ab60247fbc3503aeadaf1d16d4337</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="Default view">bf1d96e3c0a801640190725e63f8ac80</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:49:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>incident</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>fred.luddy</sys_created_by><sys_created_on>2004-07-14 19:25:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>bf1d96e3c0a801640190725e63f8ac80</sys_id><sys_mod_count>0</sys_mod_count><sys_name>incident</sys_name><sys_overrides/><sys_package display_value="Incident Updates" source="com.snc.incident.updates">23193e738c9903100a22deb6dd2b4ea1</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_bf1d96e3c0a801640190725e63f8ac80</sys_update_name><sys_updated_by>system_bootstrap</sys_updated_by><sys_updated_on>2004-12-13 18:05:34</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>759384361</payload_hash>
+<remote_update_set display_value="Major Incident Auto-Detection v1">3832fad6477b47503aeadaf1d16d4346</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-10 11:52:39</sys_created_on>
+<sys_id>4132fad6477b47503aeadaf1d16d434b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a121c930a80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-10 11:52:39</sys_updated_on>
+<table>incident</table>
+<target_name>Incident</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>246ab6021bfbc350143cb4f3eb8f133d</update_guid>
+<update_guid_history>246ab6021bfbc350143cb4f3eb8f133d:759384361,d305fa46fbbbc35075abd0e43b79a658:759384361</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_register_a85b8e92473747503aeadaf1d16d4348</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><derived_priority>100</derived_priority><description>Fires on each scheduled stakeholder update</description><event_name>u_mi.stakeholder_update</event_name><fired_by/><priority>100</priority><queue/><suffix/><sys_class_name>sysevent_register</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-10 09:03:31</sys_created_on><sys_id>a85b8e92473747503aeadaf1d16d4348</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_mi.stakeholder_update</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sysevent_register_a85b8e92473747503aeadaf1d16d4348</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-10 09:03:31</sys_updated_on><table>incident</table></sysevent_register></record_update>]]></payload>
+<payload_hash>164827955</payload_hash>
+<remote_update_set display_value="Major Incident Auto-Detection v1">3832fad6477b47503aeadaf1d16d4346</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-10 11:52:39</sys_created_on>
+<sys_id>4932fad6477b47503aeadaf1d16d4348</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1250d9e270000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-10 11:52:39</sys_updated_on>
+<table>incident</table>
+<target_name>u_mi.stakeholder_update</target_name>
+<type>Event Registration</type>
+<update_domain>global</update_domain>
+<update_guid>2b7b869a8637475073137983f7d2f995</update_guid>
+<update_guid_history>2b7b869a8637475073137983f7d2f995:164827955</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_a4508fca47fbc3503aeadaf1d16d43db</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Time window in minutes for counting incidents</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>u_mi.window_minutes</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 18:21:21</sys_created_on><sys_id>a4508fca47fbc3503aeadaf1d16d43db</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_mi.window_minutes</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_a4508fca47fbc3503aeadaf1d16d43db</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 18:21:21</sys_updated_on><type>integer</type><value>10</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=a4508fca47fbc3503aeadaf1d16d43db"/></record_update>]]></payload>
+<payload_hash>-213955625</payload_hash>
+<remote_update_set display_value="Major Incident Auto-Detection v1">3832fad6477b47503aeadaf1d16d4346</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-10 11:52:39</sys_created_on>
+<sys_id>4d32fad6477b47503aeadaf1d16d4349</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a121e5fa7b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-10 11:52:39</sys_updated_on>
+<table/>
+<target_name>u_mi.window_minutes</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>91918b8a4cfbc3504886257e4d1d3cbe</update_guid>
+<update_guid_history>91918b8a4cfbc3504886257e4d1d3cbe:-213955625</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_7eee0b0a477fc3503aeadaf1d16d4316</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;MI - Detect Major Incident&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous) {
+    new MajorIncidentDetector().evaluate(current);
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-09 19:24:22&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7eee0b0a477fc3503aeadaf1d16d4316&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;MI - Detect Major Incident&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_7eee0b0a477fc3503aeadaf1d16d4316&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-10 11:33:37&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7eee0b0a477fc3503aeadaf1d16d4316"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;7eee0b0a477fc3503aeadaf1d16d4316&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-09 19:24:22&lt;/sys_created_on&gt;&lt;sys_id&gt;04005b8a477fc3503aeadaf1d16d43ac&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-09 19:24:22&lt;/sys_updated_on&gt;&lt;table&gt;sys_script&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-911558160</payload_hash>
+<remote_update_set display_value="Major Incident Auto-Detection v1">3832fad6477b47503aeadaf1d16d4346</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-10 11:52:39</sys_created_on>
+<sys_id>8132fad6477b47503aeadaf1d16d434a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a125970a290000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-10 11:52:39</sys_updated_on>
+<table>incident</table>
+<target_name>MI - Detect Major Incident</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>52dda212307b4750527452d717670c47</update_guid>
+<update_guid_history>52dda212307b4750527452d717670c47:-911558160,c8005b8af87fc350b5120477e31f8fb2:-119569544</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_incident_u_auto_major_incident</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_auto_major_incident" table="incident"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Auto Major Incident&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;false&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_auto_major_incident&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;incident&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-09 17:26:37&lt;/sys_created_on&gt;&lt;sys_id&gt;6d04fac247bbc3503aeadaf1d16d437d&lt;/sys_id&gt;&lt;sys_name&gt;Auto Major Incident&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_incident_u_auto_major_incident&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-09 17:26:37&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1682362754</payload_hash>
+<remote_update_set display_value="Major Incident Auto-Detection v1">3832fad6477b47503aeadaf1d16d4346</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-10 11:52:39</sys_created_on>
+<sys_id>8d32fad6477b47503aeadaf1d16d4348</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a121b3de390000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-10 11:52:39</sys_updated_on>
+<table>incident</table>
+<target_name>Incident.Auto Major Incident</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>eb05fa4611bbc350107903f9c47ea775</update_guid>
+<update_guid_history>eb05fa4611bbc350107903f9c47ea775:1682362754</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_incident_u_auto_major_incident_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_auto_major_incident" label="Auto Major Incident" language="en" table="incident"><sys_documentation action="INSERT_OR_UPDATE"><element>u_auto_major_incident</element><help/><hint/><label>Auto Major Incident</label><language>en</language><name>incident</name><plural>Auto Major Incidents</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 17:26:37</sys_created_on><sys_id>1705fa4647bbc3503aeadaf1d16d435b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Auto Major Incident</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_incident_u_auto_major_incident_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 17:26:37</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1433834725</payload_hash>
+<remote_update_set display_value="Major Incident Auto-Detection v1">3832fad6477b47503aeadaf1d16d4346</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-10 11:52:39</sys_created_on>
+<sys_id>c132fad6477b47503aeadaf1d16d4349</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a121b3de600000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-10 11:52:39</sys_updated_on>
+<table>incident</table>
+<target_name>Incident.Auto Major Incident</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>ef05fa469dbbc3502230665e375f0078</update_guid>
+<update_guid_history>ef05fa469dbbc3502230665e375f0078:-1433834725</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_8345f59e477347503aeadaf1d16d43be</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="incident"&gt;stateCHANGESTO6^u_auto_major_incident=true^EQ&lt;item display_value="Resolved" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="6"/&gt;&lt;item endquery="false" field="u_auto_major_incident" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;MI - Create Problem on Resolve&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous) {
+    gs.info('MI-PRB: Business rule fired for ' + current.number);
+
+    // Stop if a Problem was already created for this major incident
+    var existing = new GlideRecord('problem');
+    existing.addQuery('description', 'CONTAINS', current.number.toString());
+    existing.query();
+    if (existing.hasNext()) {
+        gs.info('MI-PRB: Problem already exists for ' + current.number + ', skipping');
+        return;
+    }
+
+    var prbId = new MajorIncidentDetector().createProblem(current);
+    gs.info('MI-PRB: Created problem with sys_id ' + prbId);
+
+    // Only link it if this instance has the Problem field on incidents
+    if (current.isValidField('problem_id'))
+        current.problem_id = prbId;
+
+    current.work_notes = 'Problem record created automatically for root cause analysis.';
+    gs.info('MI-PRB: Finished for ' + current.number);
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-10 07:33:40&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8345f59e477347503aeadaf1d16d43be&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;MI - Create Problem on Resolve&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_8345f59e477347503aeadaf1d16d43be&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-10 11:22:54&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8345f59e477347503aeadaf1d16d43be"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;8345f59e477347503aeadaf1d16d43be&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-10 07:33:39&lt;/sys_created_on&gt;&lt;sys_id&gt;c7e6f11647ff07503aeadaf1d16d4360&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-10 07:33:39&lt;/sys_updated_on&gt;&lt;table&gt;sys_script&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-808485763</payload_hash>
+<remote_update_set display_value="Major Incident Auto-Detection v1">3832fad6477b47503aeadaf1d16d4346</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-10 11:52:39</sys_created_on>
+<sys_id>c532fad6477b47503aeadaf1d16d434a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1258d38420000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-10 11:52:39</sys_updated_on>
+<table>incident</table>
+<target_name>MI - Create Problem on Resolve</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>816bea5a523b475070648cab262cd038</update_guid>
+<update_guid_history>816bea5a523b475070648cab262cd038:-808485763,a746a612803b4750d6d33cfdae94e558:-1582501050,dbe63592c4b347500b4fe2ce66970ccf:1541001114</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_f0821a1a477747503aeadaf1d16d43ed</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_digest&gt;false&lt;/default_digest&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digest_type&gt;single&lt;/digest_type&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;enable_dynamic_translation&gt;false&lt;/enable_dynamic_translation&gt;&lt;event_name&gt;u_mi.created&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;event&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;A major incident has been detected automatically.&lt;/p&gt;
+&lt;p&gt;Number: ${number}&lt;br&gt;Affected CI: ${cmdb_ci}&lt;br&gt;Related incidents: ${event.parm1}&lt;br&gt;Assignment group: ${assignment_group}&lt;/p&gt;
+&lt;p&gt;Updates will follow every 30 minutes until resolved.&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;MI - Major Incident Created&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields/&gt;&lt;recipient_groups name="Major Incident Stakeholders"&gt;f4284ad2473747503aeadaf1d16d4382&lt;/recipient_groups&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;MAJOR INCIDENT ${number}: ${short_description}&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-10 09:48:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f0821a1a477747503aeadaf1d16d43ed&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;MI - Major Incident Created&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_f0821a1a477747503aeadaf1d16d43ed&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-10 09:48:07&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Unsubscribe and Preferences"&gt;7ed0481f3b0b2200c869c2c703efc487&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1194332033</payload_hash>
+<remote_update_set display_value="Major Incident Auto-Detection v1">3832fad6477b47503aeadaf1d16d4346</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-10 11:52:39</sys_created_on>
+<sys_id>cd32fad6477b47503aeadaf1d16d4347</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1253671d40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-10 11:52:39</sys_updated_on>
+<table>incident</table>
+<target_name>MI - Major Incident Created</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>3cb5da9ec377475027346b0a1362f4a5</update_guid>
+<update_guid_history>3cb5da9ec377475027346b0a1362f4a5:1194332033</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_8186165a477747503aeadaf1d16d439f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_digest&gt;false&lt;/default_digest&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digest_type&gt;single&lt;/digest_type&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;enable_dynamic_translation&gt;false&lt;/enable_dynamic_translation&gt;&lt;event_name&gt;u_mi.stakeholder_update&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;event&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;Status update for major incident ${number}.&lt;/p&gt;
+&lt;p&gt;Current state: ${state}&lt;br&gt;Linked child incidents: ${event.parm1}&lt;br&gt;Latest work notes: ${work_notes}&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;MI - Stakeholder Update&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields/&gt;&lt;recipient_groups name="Major Incident Stakeholders"&gt;f4284ad2473747503aeadaf1d16d4382&lt;/recipient_groups&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;UPDATE on ${number}: ${short_description}&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-10 09:55:22&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8186165a477747503aeadaf1d16d439f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;MI - Stakeholder Update&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_8186165a477747503aeadaf1d16d439f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-10 09:55:22&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Unsubscribe and Preferences"&gt;7ed0481f3b0b2200c869c2c703efc487&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-54999875</payload_hash>
+<remote_update_set display_value="Major Incident Auto-Detection v1">3832fad6477b47503aeadaf1d16d4346</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-10 11:52:39</sys_created_on>
+<sys_id>fc32fad6477b47503aeadaf1d16d4346</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1253d15950000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-10 11:52:39</sys_updated_on>
+<table>incident</table>
+<target_name>MI - Stakeholder Update</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>c3571a5254b7475068b8d7446a3b1ea8</update_guid>
+<update_guid_history>c3571a5254b7475068b8d7446a3b1ea8:-54999875</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
